@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #212121
+    ;
+    color: white;
+    font-size: 18px;
+    /* color 
+    #14ffec
+    #212121
+    #323232
+    */
+}
+/*************NavBar**************/
+
+ header {
+    background-color: #212120;
+    display: flex;
+    justify-content: space-between; 
+    height: 70px;
+    border-bottom: 1px solid red;
+
+}
+
+header img {
+    position: relative;
+    left: 5%;
+}
+
+header ul li {
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px;
+    position: relative;
+    right: 20%;
+}
+
+header ul li:hover {
+    border-bottom: 2px solid aqua;
+    transition: 0.3s ease-out;
+
+}
+
+header ul li:active {
+    color: aqua;
+    border-bottom: none;
+    font-size: 0.9rem;
+}
+
+/**********************Body***********/
+
+body main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+body main .names {
+    width: 45%;
+   margin-top: 15%;
+
+}
+
+body main .names p,input {
+    margin: 15px;
+}
+
+/* body main .photo {
+    display: flex;
+    justify-content: center;
+    width: 750px;
+    height: 500px;
+    border: 3px solid aqua ;
+    border-radius: 50%;
+} */
+
+body main img {
+   margin-top: 50%;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 3px solid aqua;
+}
+
+body main #me {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+body main span {
+    color: aqua;
+}
+
+body main #dest {
+    font-weight: bold;
+}
